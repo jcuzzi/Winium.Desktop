@@ -33,8 +33,8 @@
                 if (element != null)
                 {
                     var rect = element.Properties.BoundingRectangle;
-                    resultPoint.X = rect.TopLeft.X;
-                    resultPoint.Y = rect.TopLeft.Y;
+                    resultPoint.X = rect.Left;
+                    resultPoint.Y = rect.Top;
                     if (!haveOffset)
                     {
                         resultPoint.X += rect.Width / 2;

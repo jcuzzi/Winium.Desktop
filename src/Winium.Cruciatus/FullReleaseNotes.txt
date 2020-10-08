@@ -1,0 +1,26 @@
+Version 2.7.0
+	* Default search timeout is 10 seconds
+Version 2.6.1
+	* More simple creation DataGrid
+Version 2.6.0
+	+ Add extension (to CruciatusElement) for getting UI automation patterns
+Version 2.5.0
+	+ Add KeyUp and KeyDown methods for CruciatusFactory.Keyboard (only works with InputSimulator keyboard type)
+	+ Add CruciatusElement extension for click with any pressed keys
+Version 2.4.0
+	+ Support relative path for tested app
+	+ Support arguments for start tested app
+	+ Add path of unfound tested app file to exception text
+	+ All error have english language
+Version 2.3.0
+	+ Add FocusedElement property to CruciatusFactory
+	+ Implement IEquatable&lt;CruciatusElement&gt;.Equals method
+	+ Override Object.Equals and Object.GetHashCode implementations
+Version 2.2.1
+	* Inner minor changes in Core.MouseButtons enum
+Version 2.2.0
+	+ Add RuntimeId property to CruciatusElement.Properties
+Version 2.1.1
+	+ Add BoundingRectangle property to CruciatusElement.Properties
+	+ Add CurrentCursorPos property in mouse simulator
+	+ Add MoveCursorPos method

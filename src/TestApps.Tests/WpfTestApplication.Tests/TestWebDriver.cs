@@ -222,7 +222,7 @@
                 return null;
             }
 
-            return this.CreateElement((string)elementDictionary["ELEMENT"]);
+            return this.CreateElementFromResponse(response);
         }
 
         #endregion

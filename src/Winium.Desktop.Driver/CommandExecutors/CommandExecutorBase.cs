@@ -74,6 +74,11 @@
             return this.JsonResponse(ResponseStatus.Success, null);
         }
 
+        protected string JsonResponse(object value)
+        {
+            return this.JsonResponse(ResponseStatus.Success, value);
+        }
+
         protected string JsonResponse(ResponseStatus status, object value)
         {
             return JsonConvert.SerializeObject(
